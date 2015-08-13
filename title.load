@@ -12,5 +12,5 @@ function title
       return 1
   end
   
-  echo "function fish_title; echo $argv; end" | source -
+  echo "function fish_title; echo \"$argv\"; end" | source -
 end
