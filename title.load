@@ -1,0 +1,16 @@
+# Changes the terminal title
+#
+# Usage:
+#
+# Change title to Foobar
+# $ title Foobar
+
+## Main program
+function title
+  if [ (count $argv) -lt 1 ]
+      echo "You need to specify a title to set"
+      return 1
+  end
+  
+  echo "function fish_title; echo $argv; end" | source -
+end
