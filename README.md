@@ -8,9 +8,11 @@ The title can be handled differently depending on your terminal application/mult
 
 # Usage examples
 
-Change
+Change the title using `title` command
 
-    fenv export PYTHON=python2
+    title Server
+    
+The title is updated on the fly!
 
 ## Installation
 
