@@ -4,7 +4,7 @@ This plugin allows you to change your terminal title.
 
 The title can be handled differently depending on your terminal application/multiplexer. On common graphical terminal emulators like GNOME's and OS X's the behavior of this plugin is to change the tab and/or titlebar title:
 
-
+![Terminal Title Screenshot](https://dl.dropboxusercontent.com/u/56336/terminal-title.png)
 
 # Usage examples
 
