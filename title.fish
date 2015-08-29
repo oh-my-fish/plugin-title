@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-function title
+function title -d "Change current terminal title"
   if [ (count $argv) -lt 1 ]
       echo "You need to specify a title to set"
       return 1
